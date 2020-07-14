@@ -1,0 +1,35 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  height: 500px;
+  width: 350px;
+  background-color: #a2d594;
+  position: absolute;
+  margin: auto;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+}
+
+.cat{
+  position: relative;
+  top: 25px;
+  left:50px;
+}
+
+.face{
+  background-color: #33292b;
+  height: 90px;
+  width: 150px;
+  border-radius: 30px;
+}
+
+.ear-1, .ear-r{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid =33292b;
+}
